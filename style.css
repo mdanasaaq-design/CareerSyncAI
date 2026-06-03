@@ -5,17 +5,23 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    padding: 40px;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .navbar {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 20px 50px;
-
-    border-bottom: 1px solid #e5e7eb;
+    padding: 20px 0;
 }
 
 .logo {
